@@ -1,0 +1,139 @@
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5% 10%;
+}
+
+.main_p{
+    padding: 15rem 13rem;
+    border: 1px solid blue;
+}
+.main_mov{
+    padding: 15rem 13rem;
+    border: 1px solid black;
+}
+
+.learn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: blue;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.learn_p{
+    padding: 8rem 13rem;
+    border: 1px solid cornflowerblue;
+    color: cornflowerblue;
+}
+.learn_img{
+    padding: 8rem 15rem;
+    border-radius: 100% 100% 0 0;
+    background-color: rgb(255, 230, 0);
+}
+.coins{
+    padding: 9rem 20rem ;
+    margin: 5% 10%;
+    border: 1px solid silver;
+    text-align: center;
+}
+
+.learn_page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5% 10%;
+}
+
+.learn_page_go{
+    padding: 15rem 13rem;
+    border: 1px solid blue;
+}
+
+.learn_page_list{
+    padding: 15rem 13rem;
+    border: 1px solid black;
+}
+
+.reverse_page{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    margin: 5% 10%;
+}
+.reverse_page_list{
+    padding: 15rem 13rem;
+    border: 1px solid black;
+}
+.reverse_page_photo{
+    padding: 15rem 13rem;
+    border: 1px solid blue;
+}
+
+.last{
+    background-color:gainsboro;
+    padding: 10rem 50%;
+    margin: 5% 0;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5% 10%;
+}
+
+.footer_logo{
+    align-self: flex-start;
+    padding: 10% 10%;
+    border: 1px solid blue;
+}
+.footer_company_nav{
+    padding: 15rem 20rem;
+    border: 1px solid black;
+}
+
+
+@media screen and (max-width:1047px) {
+    .main_p{
+        padding: 15rem 50%;
+    }
+
+    .main_mov{
+        display: none;
+    }
+    .learn{
+        display: flex;
+        justify-content: center;
+    }
+    .learn_p{
+        padding: 8rem 100%;
+        border: none;
+        background-color: gainsboro;
+    }
+
+    .coins{
+        margin:5% 0;
+    }
+
+    .learn_page_go{
+        padding: 10rem 50%;
+    }
+
+    .learn_page_list{
+        padding: 10rem 51%;
+    }
+    .reverse_page_list{
+        padding: 10rem 50%;
+    }
+    .reverse_page_photo{
+        padding: 10rem 50%;
+    }
+
+    .last{
+        background-color: navy;
+    }
+}
